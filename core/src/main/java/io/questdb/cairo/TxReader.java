@@ -349,6 +349,7 @@ public class TxReader implements Closeable, Mutable {
     public long getVersion() {
         return version;
     }
+    
 
     public void initRO(MemoryMR txnFile, int partitionBy) {
         this.roTxMemBase = txnFile;
